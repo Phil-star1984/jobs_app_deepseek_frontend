@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobsuche</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-[#fff0f3] text-[#590d22]">
+    <div class="container mx-auto px-4 py-8">
+      <h2 class="text-4xl font-bold mb-2">NerdJobs</h2>
+      <p class="text-white-600 mb-8">
+        Sponsored by
+        <a href="http://www.millionpainter.de" target="_blank"
+          >Millionpainter.de</a
+        >
+      </p>
+      <div
+        id="jobs"
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+      >
+        <!-- Jobs werden hier dynamisch eingefügt -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
