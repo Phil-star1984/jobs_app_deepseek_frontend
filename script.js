@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       const data = await response.json();
-      console.log(data.data);
+      /* console.log(data.data); */
       displayJobs(data.data.stellenangebote);
     } catch (error) {
-      console.error("Fehler beim Abrufen der Jobs:", error);
+      /* console.error("Fehler beim Abrufen der Jobs:", error); */
       jobsContainer.innerHTML = `<p class="text-red-500">Fehler beim Abrufen der Jobs: ${error.message}</p>`;
     }
   }
